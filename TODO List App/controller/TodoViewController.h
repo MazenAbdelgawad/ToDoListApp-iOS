@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TodoViewController.h
 //  TODO List App
 //
 //  Created by Mazen on 12/15/19.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TodoViewController : UIViewController <UITableViewDelegate, UITableViewDataSource , UISearchBarDelegate>
 
 @end
-

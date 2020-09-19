@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		210E3E1023A5A86D00DFF89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E3E0F23A5A86D00DFF89E /* main.m */; };
 		210E3E1323A5A86E00DFF89E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E3E1223A5A86E00DFF89E /* AppDelegate.m */; };
-		210E3E1623A5A86E00DFF89E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E3E1523A5A86E00DFF89E /* ViewController.m */; };
 		210E3E1923A5A86E00DFF89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210E3E1723A5A86E00DFF89E /* Main.storyboard */; };
 		210E3E1B23A5A86E00DFF89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210E3E1A23A5A86E00DFF89E /* Assets.xcassets */; };
 		210E3E1E23A5A86E00DFF89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210E3E1C23A5A86E00DFF89E /* LaunchScreen.storyboard */; };
+		210E3E2723A5C8EC00DFF89E /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E3E2623A5C8EC00DFF89E /* Item.m */; };
+		210E3E2D23A665D100DFF89E /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E3E2C23A665D100DFF89E /* TodoViewController.m */; };
+		210E3E3023A66DBF00DFF89E /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E3E2F23A66DBF00DFF89E /* ItemViewController.m */; };
+		21C65DA023AFCB9E0061BD43 /* ItemDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C65D9F23AFCB9E0061BD43 /* ItemDetailsViewController.m */; };
+		21CF745223AFF068001DBE8A /* InprogressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF745123AFF068001DBE8A /* InprogressTableViewController.m */; };
+		21CF745523B02E5D001DBE8A /* DoneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF745423B02E5D001DBE8A /* DoneTableViewController.m */; };
+		21D9966423B4076500413643 /* PiriortyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D9966323B4076500413643 /* PiriortyViewController.m */; };
+		21D9966B23B43E8700413643 /* icondone.png in Resources */ = {isa = PBXBuildFile; fileRef = 21D9966723B43E8700413643 /* icondone.png */; };
+		21D9966E23B43E8700413643 /* icontodo.png in Resources */ = {isa = PBXBuildFile; fileRef = 21D9966A23B43E8700413643 /* icontodo.png */; };
+		BF0C2618251692CB007D5AAC /* Todo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0C2614251692C4007D5AAC /* Todo.png */; };
+		BF0C2619251692CB007D5AAC /* Done.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0C2615251692C6007D5AAC /* Done.png */; };
+		BF0C261A251692CB007D5AAC /* inprogress.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0C2616251692C8007D5AAC /* inprogress.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,29 @@
 		210E3E0F23A5A86D00DFF89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		210E3E1123A5A86E00DFF89E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		210E3E1223A5A86E00DFF89E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		210E3E1423A5A86E00DFF89E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		210E3E1523A5A86E00DFF89E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		210E3E1823A5A86E00DFF89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		210E3E1A23A5A86E00DFF89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210E3E1D23A5A86E00DFF89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210E3E1F23A5A86E00DFF89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210E3E2523A5C8EC00DFF89E /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		210E3E2623A5C8EC00DFF89E /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		210E3E2B23A665D100DFF89E /* TodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		210E3E2C23A665D100DFF89E /* TodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
+		210E3E2E23A66DBF00DFF89E /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		210E3E2F23A66DBF00DFF89E /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		21C65D9E23AFCB9E0061BD43 /* ItemDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailsViewController.h; sourceTree = "<group>"; };
+		21C65D9F23AFCB9E0061BD43 /* ItemDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailsViewController.m; sourceTree = "<group>"; };
+		21CF745023AFF068001DBE8A /* InprogressTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InprogressTableViewController.h; sourceTree = "<group>"; };
+		21CF745123AFF068001DBE8A /* InprogressTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InprogressTableViewController.m; sourceTree = "<group>"; };
+		21CF745323B02E5D001DBE8A /* DoneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneTableViewController.h; sourceTree = "<group>"; };
+		21CF745423B02E5D001DBE8A /* DoneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoneTableViewController.m; sourceTree = "<group>"; };
+		21D9966223B4076500413643 /* PiriortyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiriortyViewController.h; sourceTree = "<group>"; };
+		21D9966323B4076500413643 /* PiriortyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiriortyViewController.m; sourceTree = "<group>"; };
+		21D9966723B43E8700413643 /* icondone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icondone.png; sourceTree = "<group>"; };
+		21D9966A23B43E8700413643 /* icontodo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icontodo.png; sourceTree = "<group>"; };
+		BF0C2614251692C4007D5AAC /* Todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Todo.png; sourceTree = "<group>"; };
+		BF0C2615251692C6007D5AAC /* Done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done.png; sourceTree = "<group>"; };
+		BF0C2616251692C8007D5AAC /* inprogress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inprogress.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +86,13 @@
 		210E3E0D23A5A86D00DFF89E /* TODO List App */ = {
 			isa = PBXGroup;
 			children = (
+				BF0C261E2516940F007D5AAC /* view */,
+				BF0C261C2516934A007D5AAC /* model */,
+				BF0C261B2516931E007D5AAC /* icon */,
+				BF0C261D25169391007D5AAC /* controller */,
 				210E3E1123A5A86E00DFF89E /* AppDelegate.h */,
 				210E3E1223A5A86E00DFF89E /* AppDelegate.m */,
-				210E3E1423A5A86E00DFF89E /* ViewController.h */,
-				210E3E1523A5A86E00DFF89E /* ViewController.m */,
-				210E3E1723A5A86E00DFF89E /* Main.storyboard */,
 				210E3E1A23A5A86E00DFF89E /* Assets.xcassets */,
-				210E3E1C23A5A86E00DFF89E /* LaunchScreen.storyboard */,
 				210E3E1F23A5A86E00DFF89E /* Info.plist */,
 				210E3E0E23A5A86D00DFF89E /* Supporting Files */,
 			);
@@ -77,6 +105,55 @@
 				210E3E0F23A5A86D00DFF89E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF0C261B2516931E007D5AAC /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				BF0C2615251692C6007D5AAC /* Done.png */,
+				BF0C2616251692C8007D5AAC /* inprogress.png */,
+				BF0C2614251692C4007D5AAC /* Todo.png */,
+				21D9966723B43E8700413643 /* icondone.png */,
+				21D9966A23B43E8700413643 /* icontodo.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		BF0C261C2516934A007D5AAC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				210E3E2523A5C8EC00DFF89E /* Item.h */,
+				210E3E2623A5C8EC00DFF89E /* Item.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BF0C261D25169391007D5AAC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				210E3E2E23A66DBF00DFF89E /* ItemViewController.h */,
+				210E3E2F23A66DBF00DFF89E /* ItemViewController.m */,
+				21C65D9E23AFCB9E0061BD43 /* ItemDetailsViewController.h */,
+				21C65D9F23AFCB9E0061BD43 /* ItemDetailsViewController.m */,
+				210E3E2B23A665D100DFF89E /* TodoViewController.h */,
+				210E3E2C23A665D100DFF89E /* TodoViewController.m */,
+				21CF745023AFF068001DBE8A /* InprogressTableViewController.h */,
+				21CF745123AFF068001DBE8A /* InprogressTableViewController.m */,
+				21CF745323B02E5D001DBE8A /* DoneTableViewController.h */,
+				21CF745423B02E5D001DBE8A /* DoneTableViewController.m */,
+				21D9966223B4076500413643 /* PiriortyViewController.h */,
+				21D9966323B4076500413643 /* PiriortyViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BF0C261E2516940F007D5AAC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				210E3E1723A5A86E00DFF89E /* Main.storyboard */,
+				210E3E1C23A5A86E00DFF89E /* LaunchScreen.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +216,12 @@
 			files = (
 				210E3E1E23A5A86E00DFF89E /* LaunchScreen.storyboard in Resources */,
 				210E3E1B23A5A86E00DFF89E /* Assets.xcassets in Resources */,
+				BF0C2618251692CB007D5AAC /* Todo.png in Resources */,
+				21D9966B23B43E8700413643 /* icondone.png in Resources */,
+				BF0C2619251692CB007D5AAC /* Done.png in Resources */,
+				BF0C261A251692CB007D5AAC /* inprogress.png in Resources */,
 				210E3E1923A5A86E00DFF89E /* Main.storyboard in Resources */,
+				21D9966E23B43E8700413643 /* icontodo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +232,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				210E3E1623A5A86E00DFF89E /* ViewController.m in Sources */,
+				210E3E2723A5C8EC00DFF89E /* Item.m in Sources */,
+				210E3E3023A66DBF00DFF89E /* ItemViewController.m in Sources */,
+				21C65DA023AFCB9E0061BD43 /* ItemDetailsViewController.m in Sources */,
+				21D9966423B4076500413643 /* PiriortyViewController.m in Sources */,
+				21CF745523B02E5D001DBE8A /* DoneTableViewController.m in Sources */,
 				210E3E1323A5A86E00DFF89E /* AppDelegate.m in Sources */,
+				21CF745223AFF068001DBE8A /* InprogressTableViewController.m in Sources */,
+				210E3E2D23A665D100DFF89E /* TodoViewController.m in Sources */,
 				210E3E1023A5A86D00DFF89E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +397,7 @@
 				210E3E2423A5A86E00DFF89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
